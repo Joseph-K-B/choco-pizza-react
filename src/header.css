@@ -1,0 +1,22 @@
+header{
+    height:100px;
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: space-between;
+}
+.left-header-content{
+    display:flex;
+    justify-content: flex-start;
+    /* padding: 30px; */
+}
+
+.right-header-content{
+    display:flex;
+    justify-content: flex-end;
+    width: fit-content;
+    height: fit-content;
+    margin: 2%;
+    padding: 2%;
+    
+}

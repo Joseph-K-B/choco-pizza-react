@@ -1,0 +1,53 @@
+main{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+#choco-pizza {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+}
+
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    width: 60%;
+}
+.notepad{
+   margin: 3%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   background-image: url("../assets/list-bg.png");
+   background-repeat: no-repeat;
+   height: 18rem;
+   width: 35rem;
+}
+#left-list{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   margin-top: 12%;
+   margin-left: 5%;
+}
+#right-list{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   margin-top: 10%;
+   margin-left: 5%;
+} 
+#recipe-btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color:white;
+  background-color: rgb(171, 64, 64);
+}
