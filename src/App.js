@@ -1,14 +1,12 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <>
-    <header />
-    <main />
-    <footer />
-    </>
-  );
+class App extends Component {
+ state = {};
+ render() {
+  return
+    <h1>Chocolate Pizza</h1>
+  }
 }
 
-export default App;
+export default App

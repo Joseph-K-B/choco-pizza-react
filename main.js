@@ -12,4 +12,4 @@ class info extends app {
         </>}
         )
 }
-        export default main;
+        export default info;
